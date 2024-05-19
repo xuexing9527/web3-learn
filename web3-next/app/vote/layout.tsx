@@ -10,5 +10,14 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <html><body className="s">{children}</body></html>;
+  return (
+    <html>
+      <head>
+        <script async src='https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js'></script>
+      </head>
+      <body className="s">
+        { children }
+      </body>
+    </html>
+  )
 }
