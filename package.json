@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@types/web3": "^1.2.2"
+  }
+}
